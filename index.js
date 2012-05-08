@@ -3,7 +3,7 @@ var tls = require('tls');
 var http = require('http');
 var EventEmitter = require('events').EventEmitter;
 
-var protocol = require('dnode-protocol');
+var protocol = require('koding-dnode-protocol');
 var Lazy = require('lazy');
 var SocketIO = require('./lib/stream_socketio');
 
