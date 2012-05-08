@@ -1,4 +1,4 @@
-var protocol = require('dnode-protocol');
+var protocol = require('koding-dnode-protocol');
 var EventEmitter = require('events').EventEmitter;
 var io = require('socket.io-client');
 var json = typeof JSON === 'object' ? JSON : require('jsonify');
